@@ -1,0 +1,1 @@
+toggleAct('.city-c .type')

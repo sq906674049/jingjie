@@ -1,0 +1,64 @@
+.contant {
+    background-color: #161616;
+}
+
+.contant .contant-c {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 125px 100px 55px;
+    box-sizing: border-box;
+}
+
+.contant-c .content {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.contant-c .content .red {
+    color: #dd1717;
+}
+
+.contant-c .contant-text {
+    width: 285px;
+}
+
+
+.contant-c .user {
+    width: 533px;
+}
+
+.contant-c .user input,
+.contant-c .user textarea {
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #363636;
+    width: 100%;
+    height: 46px;
+    color: #fff;
+    background-color: #1f1f1f;
+}
+
+.contant-c .user textarea {
+    margin-bottom: 0;
+    height: 178px;
+    resize: none;
+}
+
+.contant-c .user .submit {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contant-c .user .submit button {
+    width: 148px;
+    height: 48px;
+    background-color: #dd1717;
+    color: #fff;
+    border-radius: 24px;
+    border: none;
+    /* outline: none;    */
+}

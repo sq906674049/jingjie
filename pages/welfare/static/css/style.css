@@ -1,0 +1,80 @@
+body {
+    background: #000 url('../imgs/body-bg.png') no-repeat center 0/contain;
+    background-attachment: fixed;
+}
+
+/* 当季优惠 */
+.sp {
+    margin: 0 auto;
+    padding-top: 212px;
+    width: 1200px;
+}
+
+.sp .describe {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.sp .sp-list {
+    padding: 110px 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.sp .sp-item {
+    width: 515px;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+
+.sp .sp-item .img-box {
+    height: 468px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sp .sp-item .item-title {
+    line-height: 75px;
+    background-color: #212121;
+    color: #fff;
+}
+
+.sp .sp-item .info {
+    height: 200px;
+    background-color: rgba(255, 255, 255, .05);
+    font-size: 14px;
+    color: #fff;
+}
+
+.sp-item .info p:first-child {
+    padding: 40px 0 12px;
+    font-size: 36px;
+}
+
+.sp-item .info p:nth-child(2) {
+    padding-bottom: 30px;
+}
+
+.sp-item .info .red {
+    color: #dd1717;
+}
+
+.sp .sp-item:hover .item-title {
+    background-color: #dd1717;
+}
+
+.sp .sp-item:hover .info {
+    background-color: #6f0c0c;
+}
+
+.sp .sp-item:hover .red {
+    color: #fff;
+}

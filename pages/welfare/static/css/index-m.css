@@ -1,0 +1,19 @@
+@media(max-width: 1220px) {
+    .sp {
+        width: 100%;
+    }
+
+    .sp .sp-item {
+        width: 48%;
+    }
+}
+
+@media(max-width: 768px) {
+    .sp .sp-list {
+        padding: 110px 30px 30px;
+    }
+
+    .sp .sp-item {
+        width: 100%;
+    }
+}

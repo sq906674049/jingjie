@@ -1,0 +1,63 @@
+@media(max-width: 768px) {
+
+    /* banner部分 */
+    .banner .swiper-button-prev,
+    .banner .swiper-button-next,
+    .banner .swiper-pagination {
+        display: none;
+    }
+
+    .works .more {
+        line-height: 50px;
+    }
+
+    /* 当季福利部分 */
+    .welfare-c .welfare-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .welfare-c .welfare-list .l,
+    .welfare-c .welfare-list .r {
+        width: 90%;
+        padding-top: 0;
+    }
+
+    /* 关于我们部分 */
+    .aboutUs-c .info {
+        flex-wrap: wrap;
+    }
+
+    .aboutUs-c .info-item {
+        width: 100%;
+    }
+
+    .aboutUs-c .info-item img {
+        margin: 0 10px;
+        float: left;
+    }
+
+    /* 约拍流程部分 */
+    .process .process-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .process-item {
+        width: 30%;
+    }
+}
+
+@media(max-width: 1220px) {
+    .welfare .welfare-c {
+        width: 100%;
+    }
+
+    .aboutUs .aboutUs-c {
+        width: 100%;
+    }
+
+    .process .process-c {
+        width: 100%;
+    }
+}

@@ -1,0 +1,109 @@
+.banner {
+    width: 100%;
+    height: 478px;
+    background: #000 url('../imgs/body-bg.png') no-repeat center;
+}
+
+/* 
+.banner img {
+    width: 100%;
+} */
+
+.city {
+    background-color: #161616;
+}
+
+.city .city-c {
+    margin: 0 auto;
+    padding: 80px 0 100px;
+    width: 1200px;
+}
+
+.city-c .city-list {
+    padding-top: 35px;
+    display: flex;
+}
+
+.city-list .type .item {
+    width: 168px;
+    font-size: 18px;
+    color: #8c8c8c;
+    line-height: 251px;
+    text-align: center;
+    background: rgba(255, 255, 255, .05);
+    transition: line-height .4s ease;
+}
+
+.city-list .type .item:hover,
+.city-list .type .item.active {
+    color: #fff;
+    background: #7a1717;
+}
+
+.city-list .list {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.city-list .list .item {
+    width: 25%;
+    transition: width 0.4s ease;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-list .list .item:hover {
+    width: 50%;
+}
+
+.city-list .item .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.city-list .item .frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 90%;
+    height: 85%;
+    border: 1px solid #dd1717;
+    text-align: center;
+    color: #fff;
+}
+
+.city-list .frame .en {
+    width: 100%;
+    font-size: 20px;
+}
+
+.city-list .frame .zh {
+    width: 100%;
+    font-size: 14px;
+}
+
+.city-list .frame .info {
+    padding-top: 22px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.city-list .item:hover .mask {
+    opacity: 1;
+}

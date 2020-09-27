@@ -1,0 +1,303 @@
+/* 头部 */
+.header .header-c {
+    width: 100%;
+}
+
+.header-c .logo {
+    margin-left: 30px;
+}
+
+.header-c .nav {
+    margin-right: 17px;
+}
+
+/* banner部分 */
+.banner {
+    position: relative;
+}
+
+.banner .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 2;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner {
+    --swiper-navigation-size: 0;
+}
+
+.banner .swiper-button-prev,
+.banner .swiper-button-next {
+    width: 21px;
+    height: 21px;
+}
+
+.banner .swiper-button-prev {
+    left: 100px;
+    background-image: url('../imgs/left.png');
+}
+
+.banner .swiper-button-next {
+    right: 100px;
+    background-image: url('../imgs/right.png');
+}
+
+.banner .swiper-pagination {
+    bottom: 60px;
+}
+
+.banner .my-bullet {
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(255, 255, 255, .52);
+    border-radius: 50%;
+}
+
+.banner .my-bullet-active {
+    border-color: #dd1717;
+}
+
+/* 作品展示 */
+.works {
+    padding-top: 114px;
+}
+
+.works .more {
+    display: block;
+    margin-top: 44px;
+    line-height: 100px;
+    background-color: #dd1717;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+/* 当季福利 */
+.welfare .welfare-c {
+    padding-top: 115px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.welfare-c .welfare-list {
+    padding-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welfare-c .welfare-list .l,
+.welfare-c .welfare-list .r {
+    width: 515px;
+    transition: all 1s ease;
+}
+
+.welfare-c .welfare-list .r {
+    padding-top: 180px;
+}
+
+.welfare-c .welfare-list .welfare-item {
+    position: relative;
+    margin-bottom: 88px;
+    display: block;
+    border: 1px solid #212121;
+    overflow: hidden;
+}
+
+.welfare-c .welfare-item img {
+    width: 100%;
+}
+
+.welfare-c .welfare-item .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 50px;
+    background-color: #212121;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.welfare-c .welfare-item .info .desc {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    font-size: 14px;
+}
+
+.welfare-c .welfare-list .welfare-item:hover {
+    border-color: #dd1717;
+}
+
+.welfare-c .welfare-item:hover .info {
+    background-color: #dd1717;
+    color: #fff;
+}
+
+/* 关于我们 */
+.aboutUs {
+    height: 541px;
+    background: url('../imgs/aboutUs-bg.png') no-repeat center;
+    background-size: cover;
+}
+
+.aboutUs .aboutUs-c {
+    padding-top: 77px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.aboutUs-c .shoot-icon {
+    display: block;
+    margin: 46px auto 32px;
+}
+
+.aboutUs-c .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs-c .info-item {
+    padding: 10px 0;
+    width: 203px;
+    transition: all 1s ease;
+}
+
+.aboutUs-c .info-item img {
+    display: block;
+    margin: 0 auto 29px;
+}
+
+.aboutUs-c .info-item p {
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+/* 约拍流程开始 */
+.process {
+    padding-top: 77px;
+}
+
+.process .process-c {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 73px;
+}
+
+.process .process-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.process-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+    width: 168px;
+    height: 125px;
+    background-color: black;
+    border: 1px solid #131313;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+
+.process-item .num-bg {
+    position: absolute;
+    top: -105px;
+    left: 50%;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
+    background-color: #0d0d0d;
+    transform: rotate(45deg);
+    border-radius: 60% 40% 2px 40%;
+    transition: all .5s ease;
+}
+
+.process-item .circle {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: #dd1717;
+    border-radius: 50%;
+    display: none;
+    transition: all 1s ease;
+}
+
+.process-item .arrow {
+    position: absolute;
+    left: 50%;
+    margin-left: -9px;
+    top: -18px;
+    border: 8px solid transparent;
+    border-top-width: 0px;
+    border-bottom: 18px solid #0d0d0d;
+}
+
+.process-item .arrow-in {
+    position: absolute;
+    left: 50%;
+    margin-left: -9px;
+    top: -14px;
+    border: 8px solid transparent;
+    border-top-width: 0px;
+    border-bottom: 18px solid black;
+}
+
+.process-item .num-bg .num {
+    margin: 10px 0px 0 0px;
+    color: #dd1717;
+    font-size: 24px;
+    font-weight: bold;
+    transform: rotate(-45deg) translateX(-.1rem);
+}
+
+.process-item .item-text {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.process-item:hover {
+    background-color: #191919;
+    border-bottom: 20px solid #dd1717;
+    border-color: #dd1717;
+}
+
+.process-item:hover .circle {
+    display: block;
+}
+
+.process-item:hover .num-bg {
+    background-color: #dd1717;
+}
+
+.process-item:hover .arrow {
+    border-bottom-color: #dd1717;
+}
+
+.process-item:hover .arrow-in {
+    border-bottom-color: #191919;
+}
+
+.process-item:hover .num-bg .num {
+    color: #fff;
+}

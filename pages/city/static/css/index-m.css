@@ -1,0 +1,35 @@
+@media(max-width: 1220px) {
+    .city .city-c {
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .city-c .city-list {
+        flex-wrap: wrap;
+    }
+
+    .city-list .type {
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .city-list .type .item {
+        width: 30%;
+        line-height: 50px;
+        border-radius: 10px;
+    }
+
+    .city-list .list {
+        height: 500px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .city-list .list .item {
+        margin-bottom: 10px;
+        width: 48%;
+    }
+}

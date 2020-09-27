@@ -1,0 +1,15 @@
+@media(max-width: 1220px) {
+    .product .product-c {
+        width: 100%;
+    }
+
+    .product-c .prod-type {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 768px) {
+    .banner img {
+        height: 200px;
+    }
+}

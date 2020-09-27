@@ -1,0 +1,24 @@
+@media(max-width: 1220px) {
+    .contant .contant-c {
+        width: 100%;
+    }
+
+    .contant-c .user {
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .contant .contant-c {
+        padding: 125px 20px 55px;
+    }
+
+    .contant-c .user {
+        width: 100%;
+    }
+
+    .contant-c .content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

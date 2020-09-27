@@ -1,0 +1,100 @@
+body {
+    background: #000 url(../imgs/bg.png) no-repeat center 0;
+    background-attachment: fixed;
+}
+
+.about .about-c {
+    margin: 0 auto;
+    padding-top: 210px;
+    width: 788px;
+    color: #8c8c8c;
+}
+
+.about-c .about-msg {
+    line-height: 30px;
+    font-size: 14px;
+    padding-top: 70px;
+    letter-spacing: .2rem;
+}
+
+.qty {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    text-align: center;
+}
+
+.qty .info .num {
+    padding-bottom: 15px;
+    font-size: 60px;
+}
+
+.qty .hour {
+    width: 50%;
+}
+
+.qty .hour .num {
+    border-left: 1px solid #8c8c8c;
+    border-right: 1px solid #8c8c8c;
+}
+
+.qty .hour .text {
+    position: relative;
+    vertical-align: middle;
+}
+
+.qty .hour .text::after {
+    content: "小时";
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-size: 14px;
+}
+
+.qty .set {
+    padding-right: 30px;
+    position: relative;
+}
+
+.qty .set::after {
+    content: "套";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about-c .text-box {
+    position: relative;
+    margin: 130px auto 0;
+    height: 333px;
+    border: 3px solid #dd1717;
+    border-top: none;
+    background: url('../imgs/与影随行.png') no-repeat 38px center;
+}
+
+.about-c .text-box::before,
+.about-c .text-box::after {
+    content: "";
+    width: 268px;
+    height: 3px;
+    background-color: #dd1717;
+    float: left;
+    transition: all .4s ease;
+}
+
+.about-c .text-box::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about-c .text-box .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.about-c .text-box .about-msg {
+    text-indent: 2em;
+    padding: 60px 50px 0 114px;
+}

@@ -1,0 +1,27 @@
+@media(max-width:768px) {
+    body {
+        background-position-x: 20%;
+    }
+
+    .about .about-c {
+        width: 95%;
+        padding-top: 100px;
+    }
+
+    .about-c .text-box {
+        height: auto;
+    }
+
+    .about-c .qty .num {
+        font-size: 30px;
+    }
+
+    .about-c .text-box::before,
+    .about-c .text-box::after {
+        width: 30%;
+    }
+
+    .about-c .text-box .about-msg {
+        padding-right: 10px;
+    }
+}
